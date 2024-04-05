@@ -1,0 +1,11 @@
+.main-container{
+    padding: var(--main-container-padding);
+}
+
+.btn{
+    padding: var(--btn-padding);
+    border-radius: var(--btn-border-radius);
+
+    font-weight: 500;
+    cursor: pointer;
+}

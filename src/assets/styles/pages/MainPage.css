@@ -1,0 +1,9 @@
+.main-page > *{
+    margin-bottom: 2rem;
+}
+
+.book-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--book-container-gap);
+}

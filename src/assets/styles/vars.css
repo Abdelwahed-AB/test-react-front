@@ -1,0 +1,20 @@
+:root {
+    --header-padding : 1rem 5rem;
+    --main-container-padding: 5rem;
+    --card-padding: 1rem;
+    --btn-padding: .5rem 1rem;
+
+    --nav-list-gap: 1rem;
+    --card-gap: 1rem;
+    --card-actions-gap: .5rem;
+    --book-container-gap: 1rem;
+
+    --card-border-radius: 1rem;
+    --btn-border-radius: .5rem;
+
+    --color-navy : #1D3557;
+    --color-blue : #457B9D;
+    --color-red : #E63946;
+    --color-offwhite: #f3f3f3;
+    --color-light-blue: #A8DADC;
+}

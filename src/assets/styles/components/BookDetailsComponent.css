@@ -1,0 +1,51 @@
+.book-details{
+    width: 75%;
+    margin: 0 auto;
+
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    background-color: var(--color-offwhite);
+    border: 2px dashed var(--color-light-blue);
+
+    display: flex;
+    flex-direction: column;
+
+    gap: var(--card-gap);
+}
+
+.book-details-img {
+    width: 20%;
+    align-self: center;
+    border-radius: var(--card-border-radius);
+}
+
+.book-details-content{
+    display: flex;
+    flex-direction: column;
+
+    gap: var(--card-gap);
+
+    p {
+        font-weight: 300;
+    }
+}
+
+.book-details-title{
+    align-self: center;
+}
+
+.book-details-actions{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-read {
+    background-color: var(--color-light-blue);
+    width: 25%;
+}
+
+.btn-wishlist {
+    background-color: var(--color-blue);
+    color: var(--color-offwhite);
+    width: 25%;
+}

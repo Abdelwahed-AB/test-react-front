@@ -1,0 +1,34 @@
+.login-page > *{
+    margin-bottom: 1rem;
+}
+
+.login-form{
+    width: 50%;
+    background-color: var(--color-offwhite);
+    border-radius: var(--card-border-radius);
+    
+    border: 2px dashed var(--color-light-blue);
+
+    padding: var(--card-padding);
+    margin: 0 auto;
+}
+
+.form-control{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-select {
+    width: 50%;
+    padding: .5rem 1rem;
+
+    border-radius: var(--card-border-radius);
+}
+
+.btn-login {
+    background-color: var(--color-blue);
+    color: white;
+    margin-left: auto;
+}
